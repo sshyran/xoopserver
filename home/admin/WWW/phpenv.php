@@ -1,16 +1,9 @@
-<html><body><center>
-<script language="JavaScript">
-<!--
-function close_window() {
-daddy = window.self;
-daddy.opener = window.self;
-daddy.close();
-}
-//-->
-</script>
-<a href="#" onClick="close_window()">Close This Window</a><br><br>
-
 <?php
+
+include_once "http://localhost/a/plugins/themeheader.html";
+
+echo "<div class=\"centerCblockTitle\">Xoops Sever configuration</div><br>";
+
 function ss_timing_start ($name = 'default') {
     global $ss_timing_start_times;
     $ss_timing_start_times[$name] = explode(' ', microtime());
@@ -41,8 +34,10 @@ function ss_timing_current ($name = 'default') {
 ss_timing_start();
 phpinfo();
 ss_timing_stop();
-?>
 
-<hr><br><font color="red" size=4> The page was executed in: <?php echo ss_timing_current();?>  seconds. </font><br><br>
-<a href="#" onClick="close_window()">Close This Window</a>
-</center></body></html>
+echo "<hr><br>
+      <div class=\"confirm\">The page was executed in : ".ss_timing_current()." seconds.</div>";
+
+include_once "http://localhost/a/plugins/themefooter.html";
+
+?>

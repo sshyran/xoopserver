@@ -1,0 +1,910 @@
+[Mon Aug 18 09:06:08 2008] [notice] Parent: Created child process 4704
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Mon Aug 18 09:06:08 2008] [notice] Child 4704: Child process is running
+[Mon Aug 18 09:06:08 2008] [notice] Child 4704: Acquired the start mutex.
+[Mon Aug 18 09:06:08 2008] [notice] Child 4704: Starting 250 worker threads.
+[Mon Aug 18 09:07:01 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:07:01 2008] [error] [client 127.0.0.1] Number found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "border-width: expression(this.type=="submit" ?'1"\r
+[Mon Aug 18 09:07:01 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 9)\r
+[Mon Aug 18 09:07:01 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 38, near "border-width: expression(this.type=="submit" ?'1"\r
+[Mon Aug 18 09:07:01 2008] [error] [client 127.0.0.1] Bad name after px' at W:/home/admin/CGI/cgienv.cgi line 38.\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near ""http://www.w3.org/1999/xhtml" xml"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before xml?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near ""en" lang"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before lang?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near ""content-style-type" content"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 14, near ""content-language" content"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 16, near ""keywords" content"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 18, near ""rating" content"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 20, near ""copyright" content"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 23, near "<link rel="stylesheet" type="text/css" media=""\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before " media="?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 23, near "" media="screen"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before screen?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 23, near "screen" href=""\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near "</style"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 27)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] \t(Missing operator before tyle?)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Number found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "border-width: expression(this.type==\\"submit\\" ?'1"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 29)\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near ""http://www.w3.org/1999/xhtml" xml"\r
+[Mon Aug 18 09:11:20 2008] [error] [client 127.0.0.1] Bad name after px' at W:/home/admin/CGI/cgienv.cgi line 38.\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near ""http://www.w3.org/1999/xhtml" xml"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before xml?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near ""en" lang"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before lang?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near ""content-style-type" content"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 14, near ""content-language" content"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 16, near ""keywords" content"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 18, near ""rating" content"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 20, near ""copyright" content"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before content?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 23, near "<link rel="stylesheet" type="text/css" media=""\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before " media="?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 23, near "" media="screen"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before screen?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 23, near "screen" href=""\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near "</style"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 27)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] \t(Missing operator before tyle?)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Number found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "border-width: expression(this.type==\\"submit\\" ?'1"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 29)\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near ""http://www.w3.org/1999/xhtml" xml"\r
+[Mon Aug 18 09:12:16 2008] [error] [client 127.0.0.1] Bad name after px' at W:/home/admin/CGI/cgienv.cgi line 38.\r
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""top" id"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""images/logo.png" alt"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""XOOPS Cube" title"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" type"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" value"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""search" accesskey"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near "</form"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 36)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 43, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/a></li"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 52, near "<div class="floatClear"></div"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 51)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 56, near "print '"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 53)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 25, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 57.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""top" id"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""images/logo.png" alt"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""XOOPS Cube" title"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" type"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" value"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""search" accesskey"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near "</form"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 36)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 43, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/a></li"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 52, near "<div class="floatClear"></div"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 51)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 56, near "print '"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 53)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 25, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:55 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 57.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""top" id"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""images/logo.png" alt"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""XOOPS Cube" title"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" type"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" value"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""search" accesskey"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near "</form"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 36)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 43, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/a></li"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 52, near "<div class="floatClear"></div"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 51)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 56, near "print '"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 53)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 25, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 57.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""top" id"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""images/logo.png" alt"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""XOOPS Cube" title"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" type"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""submit" value"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 36, near ""search" accesskey"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near "</form"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 36)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 43, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/a></li"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 52, near "<div class="floatClear"></div"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 51)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 56, near "print '"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 53)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 25, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:14:59 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 57.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:22 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:22 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 25, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:22 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:22 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 29.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:23 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:23 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 25, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:23 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:15:23 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 29.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 11, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 15.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 11, near "body>"\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:16:09 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 15.\r, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 09:19:52 2008] [notice] Parent: Created child process 5976
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Mon Aug 18 09:19:52 2008] [notice] Child 5976: Child process is running
+[Mon Aug 18 09:19:52 2008] [notice] Child 5976: Acquired the start mutex.
+[Mon Aug 18 09:19:52 2008] [notice] Child 5976: Starting 250 worker threads.
+[Mon Aug 18 09:19:56 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:19:56 2008] [error] [client 127.0.0.1] Number found where operator expected at W:/home/admin/CGI/cgienv.cgi line 32, near "border-width: expression(this.type==\\"submit\\" ?'1"\r
+[Mon Aug 18 09:19:56 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:19:56 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 32, near "border-width: expression(this.type==\\"submit\\" ?'1"\r
+[Mon Aug 18 09:19:56 2008] [error] [client 127.0.0.1] Bad name after px' at W:/home/admin/CGI/cgienv.cgi line 32.\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""top" id"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" type"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" value"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""search" accesskey"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "</form"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 37)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/span></a"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 49, near "/a></li"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 53, near "<div class="floatClear"></div"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 52)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 57, near "print '"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 55)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 26, near "body>"\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:21:35 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 58.\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""top" id"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" type"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" value"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""search" accesskey"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "</form"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 37)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 49, near "/a></li"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 53, near "<div class="floatClear"></div"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 52)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 60, near "print '"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 54)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 26, near "body>"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 61.\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""top" id"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" type"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" value"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""search" accesskey"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "</form"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 37)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/span></a"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 49, near "/a></li"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 53, near "<div class="floatClear"></div"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 52)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 60, near "print '"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 54)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 26, near "body>"\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:22:36 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 61.\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""top" id"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" type"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" value"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""search" accesskey"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "</form"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 37)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/span></a"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 49, near "/a></li"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 53, near "<div class="floatClear"></div"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 52)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 60, near "print '"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 54)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 26, near "body>"\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:23:05 2008] [error] [client 127.0.0.1] Unterminated <> operator at W:/home/admin/CGI/cgienv.cgi line 60.\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 28, near ""top" id"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" type"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before type?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""submit" value"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before value?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 37, near ""search" accesskey"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before accesskey?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 38, near "</form"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 37)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before form?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 44, near "/span></a"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 45, near "/span></a"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 46, near "/span></a"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 47, near "/span></a"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 48, near "/span></a"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 49, near "/a></li"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 53, near "<div class="floatClear"></div"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 52)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] String found where operator expected at W:/home/admin/CGI/cgienv.cgi line 54, at end of line\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] \t(Missing semicolon on previous line?)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 26, near "body>"\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:23:41 2008] [error] [client 127.0.0.1] Can't find string terminator "'" anywhere before EOF at W:/home/admin/CGI/cgienv.cgi line 54.\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""top" id"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span><div id="header"> </div"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "<span>Welcome"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before Welcome?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/a></li"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near "print "<font color=red><center><b>All CGI enviroment:</b"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 27)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Do you need to predeclare print?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 31, near "print "<I><b>$env_var</b"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 29)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] \t(Do you need to predeclare print?)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 27, near "body>"\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:25:10 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""top" id"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span><div id="header"> </div"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "<span>Welcome"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before Welcome?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/span></a"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 27, near "/a></li"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 29, near "print "<font color=red><center><b>All CGI enviroment:</b"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 27)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Do you need to predeclare print?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 31, near "print "<I><b>$env_var</b"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 29)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] \t(Do you need to predeclare print?)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 27, near "body>"\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:25:11 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near ""top" id"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before id?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near ""images/logo.png" alt"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before alt?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near ""XOOPS Cube" title"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before title?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/span><div id="header"> </div"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before div?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "<span>Welcome"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before Welcome?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/span></a"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/span></a"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/span></a"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/span></a"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/span></a"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before a?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 12, near "/a></li"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Missing operator before li?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 14, near "print "<font color=red><center><b>All CGI enviroment:</b"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 12)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Do you need to predeclare print?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 16, near "print "<I><b>$env_var</b"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line // string starting on line 14)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] \t(Do you need to predeclare print?)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 12, near "body>"\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1]   (Might be a runaway multi-line '' string starting on line 10)\r
+[Mon Aug 18 09:26:36 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:27:04 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<I><b>SCRIPT_NAME</b>=/a-cgi/c: cgienv.cgi
+[Mon Aug 18 09:27:32 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:27:32 2008] [error] [client 127.0.0.1] Can't find string terminator "'" anywhere before EOF at W:/home/admin/CGI/cgienv.cgi line 10.\r
+[Mon Aug 18 09:27:32 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:27:32 2008] [error] [client 127.0.0.1] Can't find string terminator "'" anywhere before EOF at W:/home/admin/CGI/cgienv.cgi line 10.\r
+[Mon Aug 18 09:27:33 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:27:33 2008] [error] [client 127.0.0.1] Can't find string terminator "'" anywhere before EOF at W:/home/admin/CGI/cgienv.cgi line 10.\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:02 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:03 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 10, near "'<html><head><title>XOOPS Cube Project</title><link rel="stylesheet" type="text/css" media="screen" href="../style.css" /></head><body>'\\"\r
+[Mon Aug 18 09:28:04 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:31:12 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:31:12 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 13, near "'<title>XOOPS Cube Project</title></head>'\\"\r
+[Mon Aug 18 09:31:12 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:31:12 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 13, near "'<title>XOOPS Cube Project</title></head>'\\"\r
+[Mon Aug 18 09:31:12 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:31:46 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 09:31:46 2008] [error] [client 127.0.0.1] Backslash found where operator expected at W:/home/admin/CGI/cgienv.cgi line 13, near "'</head>'\\"\r
+[Mon Aug 18 09:31:46 2008] [error] [client 127.0.0.1] \t(Missing operator before \\?)\r
+[Mon Aug 18 09:31:46 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 13, near "'</head>'\\"\r
+[Mon Aug 18 09:31:46 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:26 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:27 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:27 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:27 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:27 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 09:50:27 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/errorlog.cgi
+[Mon Aug 18 10:07:53 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:07:53 2008] [error] [client 127.0.0.1] Couldn't open /xoopserver/home/admin/WWW/plugins/MENU.html!\r
+[Mon Aug 18 10:08:37 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:08:37 2008] [error] [client 127.0.0.1] Couldn't open /xoopserver/home/admin/WWW/plugins/MENU.html!\r
+[Mon Aug 18 10:10:09 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:10:09 2008] [error] [client 127.0.0.1] Couldn't open /xoopserver/home/admin/WWW/plugins/MENU.html!\r
+[Mon Aug 18 10:10:18 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:10:18 2008] [error] [client 127.0.0.1] Couldn't open /xoopserver/home/admin/WWW/plugins/MENU.html!\r
+[Mon Aug 18 10:11:11 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:11:11 2008] [error] [client 127.0.0.1] Couldn't open /xoopserver/home/admin/WWW/plugins/MENU.html!\r
+[Mon Aug 18 10:11:41 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:11:41 2008] [error] [client 127.0.0.1] Couldn't open ../../WWW/plugins/MENU.html!\r
+[Mon Aug 18 10:11:59 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:11:59 2008] [error] [client 127.0.0.1] Couldn't open MENU.html!\r
+[Mon Aug 18 10:13:08 2008] [error] [client 127.0.0.1] Can't return outside a subroutine at W:/home/admin/CGI/cgienv.cgi line 34.\r
+[Mon Aug 18 10:13:48 2008] [error] [client 127.0.0.1] Can't return outside a subroutine at W:/home/admin/CGI/cgienv.cgi line 34.\r
+[Mon Aug 18 10:14:07 2008] [error] [client 127.0.0.1] Can't return outside a subroutine at W:/home/admin/CGI/cgienv.cgi line 35.\r
+[Mon Aug 18 10:17:43 2008] [error] [client 127.0.0.1] Can't return outside a subroutine at W:/home/admin/CGI/cgienv.cgi line 21.\r
+[Mon Aug 18 10:19:24 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:19:24 2008] [error] [client 127.0.0.1] Couldn't open menu_html.htmlf!\r
+[Mon Aug 18 10:22:40 2008] [error] [client 127.0.0.1] W:/home/admin/CGI/cgienv.cgi is not executable; ensure interpreted scripts have "#!" first line
+[Mon Aug 18 10:22:40 2008] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: W:/home/admin/CGI/cgienv.cgi
+[Mon Aug 18 10:29:32 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:29:32 2008] [error] [client 127.0.0.1] Bad name after htmlf' at W:/home/admin/CGI/cgienv.cgi line 23.\r
+[Mon Aug 18 10:37:16 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head>: cgienv.cgi
+[Mon Aug 18 10:37:36 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head>: cgienv.cgi
+[Mon Aug 18 10:39:31 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head>: cgienv.cgi
+[Mon Aug 18 10:39:32 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head>: cgienv.cgi
+[Mon Aug 18 10:42:35 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:43:06 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:43:23 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<br>: cgienv.cgi
+[Mon Aug 18 10:43:24 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<br>: cgienv.cgi
+[Mon Aug 18 10:43:38 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:43:40 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:43:41 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:43:41 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:43:43 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:00 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:08 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:09 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:09 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:09 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:10 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:10 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:10 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:44:10 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<head><title>XOOPS Cube Projec: cgienv.cgi
+[Mon Aug 18 10:45:44 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<html><head><title>XOOPS Cube : cgienv.cgi
+[Mon Aug 18 10:45:45 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<html><head><title>XOOPS Cube : cgienv.cgi
+[Mon Aug 18 10:46:47 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<HTML><head><title>XOOPS Cube : cgienv.cgi
+[Mon Aug 18 10:46:47 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<HTML><head><title>XOOPS Cube : cgienv.cgi
+[Mon Aug 18 10:47:32 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:47:32 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:47:32 2008] [error] [client 127.0.0.1] \t(Missing operator before pen?)\r
+[Mon Aug 18 10:47:32 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:47:32 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 5, near "//do "\r
+[Mon Aug 18 10:47:32 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 10:47:55 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:47:55 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:47:55 2008] [error] [client 127.0.0.1] \t(Missing operator before pen?)\r
+[Mon Aug 18 10:47:55 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:47:55 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 5, near "//do "\r
+[Mon Aug 18 10:47:55 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 10:48:05 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:48:05 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:48:05 2008] [error] [client 127.0.0.1] \t(Missing operator before pen?)\r
+[Mon Aug 18 10:48:05 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:48:05 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 5, near "//do "\r
+[Mon Aug 18 10:48:05 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 10:48:06 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi
+[Mon Aug 18 10:48:06 2008] [error] [client 127.0.0.1] Bareword found where operator expected at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:48:06 2008] [error] [client 127.0.0.1] \t(Missing operator before pen?)\r
+[Mon Aug 18 10:48:06 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 4, near "//open"\r
+[Mon Aug 18 10:48:06 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/cgienv.cgi line 5, near "//do "\r
+[Mon Aug 18 10:48:06 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/cgienv.cgi aborted due to compilation errors.\r
+[Mon Aug 18 10:50:43 2008] [error] [client 127.0.0.1] script not found or unable to stat: W:/home/admin/CGI/images, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:51:19 2008] [error] [client 127.0.0.1] script not found or unable to stat: W:/home/admin/CGI/images, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:51:20 2008] [error] [client 127.0.0.1] script not found or unable to stat: W:/home/admin/CGI/images, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:53:09 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<br>: cgienv.cgi
+[Mon Aug 18 10:54:40 2008] [error] [client 127.0.0.1] malformed header from script. Bad header=<I><b>SCRIPT_NAME</b>=/a-cgi/c: cgienv.cgi
+[Mon Aug 18 10:57:07 2008] [error] [client 127.0.0.1] script not found or unable to stat: W:/home/admin/CGI/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:57:28 2008] [error] [client 127.0.0.1] script not found or unable to stat: W:/home/admin/CGI/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:57:29 2008] [error] [client 127.0.0.1] script not found or unable to stat: W:/home/admin/CGI/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:58:21 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:59:37 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 10:59:38 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:00:06 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:00:08 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:02:17 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:02:17 2008] [error] [client 127.0.0.1] File does not exist: W:/www/images, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:02:19 2008] [error] [client 127.0.0.1] File does not exist: W:/www/style.css, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:02:19 2008] [error] [client 127.0.0.1] File does not exist: W:/www/images, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:03:31 2008] [error] [client 127.0.0.1] File does not exist: W:/www/images, referer: http://localhost/a-cgi/cgienv.cgi
+[Mon Aug 18 11:09:14 2008] [error] [client 127.0.0.1] File does not exist: W:/www/xoopscube/read_me.html, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 11:09:32 2008] [error] [client 127.0.0.1] File does not exist: W:/www/xoopscube/read_me.html
+[Mon Aug 18 11:20:18 2008] [notice] Parent: Created child process 968
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Mon Aug 18 11:20:18 2008] [notice] Child 968: Child process is running
+[Mon Aug 18 11:20:18 2008] [notice] Child 968: Acquired the start mutex.
+[Mon Aug 18 11:20:18 2008] [notice] Child 968: Starting 250 worker threads.
+[Mon Aug 18 11:27:23 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 11:28:36 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 11:31:47 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[client 127.0.0.1] PHP Warning:  main(/a/themeheader.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Fatal error:  main() [<a href='function.require'>function.require</a>]: Failed opening required '/a/themeheader.html' (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/a/themeheader.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/a/themeheader.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/a/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/a/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/plugins/themeheader.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/plugins/themeheader.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[Mon Aug 18 11:37:53 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/themeheader.html
+[client 127.0.0.1] PHP Warning:  main(http://localhost/a/themeheader.html) [<a href='function.main'>function.main</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found\r\n in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'http://localhost/a/themeheader.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/a/plugins/themeheader.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/a/plugins/themeheader.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/a/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/a/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/a/plugins/themeheader.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/a/plugins/themeheader.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 4, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(/a/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening '/a/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.main'>function.main</a>]: php_network_getaddresses: gethostbyname failed in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main(http://lovalhost/a/plugins/themefooter.html) [<a href='function.main'>function.main</a>]: failed to open stream: No error in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'http://lovalhost/a/plugins/themefooter.html' for inclusion (include_path='.;\\usr\\local\\PHP\\includes;\\usr\\local\\PHP\\pear;W:/www/xoopscube') in W:\\home\\admin\\WWW\\xoopscnf.php on line 145, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in W:\\home\\admin\\WWW\\xoopscnf.php on line 83, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in W:\\home\\admin\\WWW\\xoopscnf.php on line 83, referer: http://localhost/a/phpenv.php
+[Mon Aug 18 11:51:27 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 11:52:02 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 11:58:43 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:05:50 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:06:27 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:06:51 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:08:02 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:08:43 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:09:37 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:12:36 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:12:36 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/error.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:13:49 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_footer.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:13:49 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/error.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:14:42 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/error.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:16:47 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/error.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:30:50 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/imagesbg_blocktitle.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:31:22 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_blocktitle.png, referer: http://localhost/a/style.css
+[Mon Aug 18 12:31:24 2008] [error] [client 127.0.0.1] File does not exist: W:/home/admin/WWW/images/bg_blocktitle.png, referer: http://localhost/a/style.css
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in W:\\home\\admin\\WWW\\xoopscnf.php on line 148, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected ';' in W:\\home\\admin\\WWW\\xoopscnf.php on line 148, referer: http://localhost/a/phpenv.php
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected ';' in W:\\home\\admin\\WWW\\xoopscnf.php on line 159, referer: http://localhost/a-cgi/cgienv.cgi
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected '.' in W:\\home\\admin\\WWW\\phpenv.php on line 41, referer: http://localhost/a/xoopscnf.php
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected '}' in W:\\home\\admin\\WWW\\plugins\\themephpmyadmin.php on line 9
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected '}' in W:\\home\\admin\\WWW\\plugins\\themephpmyadmin.php on line 9
+[client 127.0.0.1] PHP Parse error:  syntax error, unexpected '}' in W:\\home\\admin\\WWW\\plugins\\themephpmyadmin.php on line 9
+[Mon Aug 18 13:24:06 2008] [error] [client 127.0.0.1] File does not exist: W:/www/collect.jsp, referer: http://manda.com/frames/
+[Mon Aug 18 13:36:32 2008] [error] [client 127.0.0.1] File does not exist: W:/www/collect_.jsp, referer: http://manda.com/frames/
+[Mon Aug 18 13:44:50 2008] [error] [client 127.0.0.1] Premature end of script headers: cgienv.cgi, referer: http://localhost/a/phpenv.php
+[Mon Aug 18 13:44:50 2008] [error] [client 127.0.0.1] header_past.pl doesn't exist at W:/home/admin/CGI/cgienv.cgi line 4.\r, referer: http://localhost/a/phpenv.php
+[Mon Aug 18 20:28:40 2008] [notice] Parent: Created child process 3376
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Mon Aug 18 20:28:41 2008] [notice] Child 3376: Child process is running
+[Mon Aug 18 20:28:41 2008] [notice] Child 3376: Acquired the start mutex.
+[Mon Aug 18 20:28:41 2008] [notice] Child 3376: Starting 250 worker threads.
+[Mon Aug 18 20:28:42 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 20:29:22 2008] [error] [client 127.0.0.1] File does not exist: W:/www/xoopscube/read_me.html, referer: http://localhost/a/xoopscnf.php
+[Mon Aug 18 20:31:46 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 20:31:56 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 20:32:43 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 20:32:59 2008] [error] [client 127.0.0.1] File does not exist: W:/www/CFIDE
+[Mon Aug 18 20:34:02 2008] [error] [client 127.0.0.1] File does not exist: W:/www/index.html
+[Mon Aug 18 20:34:04 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Mon Aug 18 21:09:03 2008] [error] [client 127.0.0.1] Premature end of script headers: errorlog.cgi
+[Mon Aug 18 21:09:03 2008] [error] [client 127.0.0.1] Unmatched right curly bracket at W:/home/admin/CGI/errorlog.cgi line 16, at end of line\r
+[Mon Aug 18 21:09:03 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/errorlog.cgi line 16, near "}"\r
+[Mon Aug 18 21:09:03 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/errorlog.cgi aborted due to compilation errors.\r
+[Mon Aug 18 21:11:12 2008] [error] [client 127.0.0.1] Premature end of script headers: errorlog.cgi
+[Mon Aug 18 21:11:12 2008] [error] [client 127.0.0.1] Unmatched right curly bracket at W:/home/admin/CGI/errorlog.cgi line 16, at end of line\r
+[Mon Aug 18 21:11:12 2008] [error] [client 127.0.0.1] syntax error at W:/home/admin/CGI/errorlog.cgi line 16, near "}"\r
+[Mon Aug 18 21:11:12 2008] [error] [client 127.0.0.1] Execution of W:/home/admin/CGI/errorlog.cgi aborted due to compilation errors.\r
+[Tue Aug 19 00:43:38 2008] [notice] Parent: Created child process 4188
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Tue Aug 19 00:43:38 2008] [notice] Child 4188: Child process is running
+[Tue Aug 19 00:43:38 2008] [notice] Child 4188: Acquired the start mutex.
+[Tue Aug 19 00:43:38 2008] [notice] Child 4188: Starting 250 worker threads.
+[Tue Aug 19 00:48:05 2008] [notice] Parent: Created child process 248
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Tue Aug 19 00:48:05 2008] [notice] Child 248: Child process is running
+[Tue Aug 19 00:48:05 2008] [notice] Child 248: Acquired the start mutex.
+[Tue Aug 19 00:48:05 2008] [notice] Child 248: Starting 250 worker threads.
+[Tue Aug 19 00:48:58 2008] [error] [client 127.0.0.1] File does not exist: W:/www/favicon.ico
+[Tue Aug 19 00:49:25 2008] [notice] Parent: Created child process 3312
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Tue Aug 19 00:49:25 2008] [notice] Child 3312: Child process is running
+[Tue Aug 19 00:49:25 2008] [notice] Child 3312: Acquired the start mutex.
+[Tue Aug 19 00:49:25 2008] [notice] Child 3312: Starting 250 worker threads.
+[Tue Aug 19 00:50:45 2008] [notice] Parent: Created child process 3208
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Tue Aug 19 00:50:45 2008] [notice] Child 3208: Child process is running
+[Tue Aug 19 00:50:45 2008] [notice] Child 3208: Acquired the start mutex.
+[Tue Aug 19 00:50:45 2008] [notice] Child 3208: Starting 250 worker threads.
+[Tue Aug 19 00:54:00 2008] [notice] Parent: Created child process 1408
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Tue Aug 19 00:54:00 2008] [notice] Child 1408: Child process is running
+[Tue Aug 19 00:54:00 2008] [notice] Child 1408: Acquired the start mutex.
+[Tue Aug 19 00:54:00 2008] [notice] Child 1408: Starting 250 worker threads.
+[Tue Aug 19 00:54:05 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:54:07 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:57:14 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:57:15 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:57:36 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:57:37 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:58:58 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:58:59 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 00:59:17 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 01:01:16 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess
+[Tue Aug 19 01:02:09 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 01:02:14 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/plugins/themephpmyadmin.html
+[Tue Aug 19 01:02:20 2008] [error] [client 127.0.0.1] File does not exist: W:/www/xoopscube/read_me.html, referer: http://localhost/a/xoopscnf.php
+[Tue Aug 19 01:02:35 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/xoopscnf.php
+[Tue Aug 19 01:02:39 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/phpenv.php
+[Tue Aug 19 01:02:41 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 01:02:46 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 01:02:48 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 01:04:24 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 01:04:59 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 01:55:09 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 01:55:11 2008] [error] [client 127.0.0.1] File does not exist: W:/usr/local/apache2/icons/small/dir.png, referer: http://localhost/
+[Tue Aug 19 01:55:11 2008] [error] [client 127.0.0.1] File does not exist: W:/usr/local/apache2/icons/small/blank.png, referer: http://localhost/
+[Tue Aug 19 01:55:18 2008] [error] [client 127.0.0.1] File does not exist: W:/usr/local/apache2/icons/small/dir.png
+[Tue Aug 19 01:56:20 2008] [error] [client 127.0.0.1] File does not exist: W:/usr/local/apache2/icons/small/blank.png, referer: http://localhost/
+[Tue Aug 19 01:57:02 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 01:57:03 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 02:09:18 2008] [notice] Parent: Created child process 2232
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_exif.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mcrypt.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_mhash.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+PHP Warning:  Unknown(): Unable to load dynamic library '/usr/local/PHP/extensions\\php_openssl.dll' - Le module sp\xe9cifi\xe9 est introuvable.\r\n in Unknown on line 0
+[Tue Aug 19 02:09:18 2008] [notice] Child 2232: Child process is running
+[Tue Aug 19 02:09:18 2008] [notice] Child 2232: Acquired the start mutex.
+[Tue Aug 19 02:09:18 2008] [notice] Child 2232: Starting 250 worker threads.
+[Tue Aug 19 02:23:43 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/
+[Tue Aug 19 02:24:10 2008] [error] [client 127.0.0.1] File does not exist: W:/www/xoopscube/read_me.html, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 02:31:35 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 02:31:37 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 02:31:39 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 02:31:42 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/plugins/themephpmyadmin.html
+[Tue Aug 19 03:04:09 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/
+[Tue Aug 19 03:04:11 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 03:06:05 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 03:06:14 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 03:06:20 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 03:07:21 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a-cgi/cgienv.cgi
+[Tue Aug 19 03:07:28 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/phpenv.php
+[Tue Aug 19 03:07:43 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/phpenv.php
+[Tue Aug 19 03:08:08 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/xoopscnf.php
+[Tue Aug 19 08:40:56 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 08:42:22 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/
+[Tue Aug 19 08:56:44 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess, referer: http://localhost/a/xoopscnf.php
+[Tue Aug 19 09:12:04 2008] [error] [client 127.0.0.1] File does not exist: W:/www/CFIDE
+[Tue Aug 19 09:54:04 2008] [error] [client 127.0.0.1] client denied by server configuration: W:/www/htaccess

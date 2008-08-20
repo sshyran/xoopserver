@@ -57,15 +57,24 @@ $phpmain_hash_js = time();
 <head>
 <title>phpMyAdmin <?php echo PMA_VERSION; ?> - <?php echo $HTTP_HOST; ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" />
+
 <link rel="stylesheet" type="text/css" href="./css/phpmyadmin.css.php?lang=<?php echo $lang; ?>&amp;js_frame=right" />
 </head>
 
 <?php
+
+
 if ($cfg['QueryFrame']) {
 
     if ($cfg['QueryFrameJS']) {
         echo '<script type="text/javascript">' . "\n";
         echo '<!--' . "\n";
+		
+		        echo '    document.writeln(\' <frameset rows="150,*" border=0 frameborder=0 framespacing=0>\');' . "\n";
+
+        echo '    document.writeln(\'<frame name=top src="http://localhost/a/plugins/themephpmyadmin.html" frameborder=0 marginheight=0 marginwidth=0 topmargin=0 leftmargin=0 rightmargin=0 bottommargin=0>\');' . "\n";
+
+
         echo '    document.writeln(\'<frameset cols="' . $cfg['LeftWidth'] . ',*" rows="*" border="1" frameborder="1" framespacing="0">\');' . "\n";
         echo '    document.writeln(\'    <frameset rows="*, 50" framespacing="0" frameborder="0" border="0">\');' . "\n";
         echo '    document.writeln(\'        <frame src="left.php?' . $url_query . '&amp;hash=' . $phpmain_hash . $phpmain_hash_js . '" name="nav" frameborder="0" />\');' . "\n";

@@ -120,7 +120,7 @@ if (empty($GLOBALS['is_header_sent'])) {
         $bkg_img = '';
     }
     ?>
-    <body bgcolor="<?php echo $GLOBALS['cfg']['RightBgColor'] . '"' . $bkg_img; ?>>
+    <body bgcolor="?php echo $GLOBALS['cfg']['RightBgColor'] . '"' . $bkg_img; ?>
     <?php
     if (!defined('PMA_DISPLAY_HEADING')) {
         define('PMA_DISPLAY_HEADING', 1);

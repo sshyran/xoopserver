@@ -126,8 +126,8 @@ body {
     <?php
     if ($GLOBALS['cfg']['RightBgImage'] == '') {
         // calls from a css file are relative to itself, so use ../images
-        echo '    background-image: url(../images/vertical_line.png);' . "\n"
-             . '    background-repeat: repeat-y;' . "\n";
+//        echo '    background-image: url(../images/vertical_line.png);' . "\n"
+//             . '    background-repeat: repeat-y;' . "\n";
     } else {
         echo '    background-image: url(' . $GLOBALS['cfg']['RightBgImage'] . ');' . "\n";
     } // end if... else...

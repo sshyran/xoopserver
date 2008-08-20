@@ -1,21 +1,10 @@
-<html>
-<head>
-<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=UTF-8">
-<title>Xoops Server configuration</title>
-</head>
-<body bgcolor="#CCCCFF">
-<center>
-<script language="JavaScript">
-<!--
-function close_window() {
-daddy = window.self;
-daddy.opener = window.self;
-daddy.close();
-}
-//-->
-</script>
-<font size=5>The Xoops Sever configuration</font><br><br>
+
 <?php
+
+include_once "http://localhost/a/plugins/themeheader.html";
+
+echo "<div class=\"centerCblockTitle\">The Xoops Sever configuration</div>";
+
 //-------------------------------------------------------------------- variables
 
 # -- Determines Apache version.
@@ -67,35 +56,55 @@ $PHP->Var_Help =array ("http://php.benscom.com/manual/en/features.safe-mode.php"
 "http://www.php.net/manual/en/function.get-magic-quotes-gpc.php",
 "http://www.php.net/manual/en/ref.mail.php",
 "http://www.php.net/manual/en/ref.mail.php");
+
 //-------------------------------------------------------------------- main program
+
 //import_request_variables("gP", "st");
+
 $step=$HTTP_POST_VARS['Submit'];
 if ($step=="next") {
 	echo "something<br>";
-}else{
+} else {
 if ($step=="Save") {
 	$apache->replace_values ($HTTP_POST_VARS);
 	$PHP->replace_values ($HTTP_POST_VARS);
-	echo "<br><font color=red>The changes have been sucssesfuly saved.<br> The changes will have effect after restart of the server!</font><br>";
-}?>
+	echo "
+	<div class=\"resultMsg\">The changes have been sucssesfuly saved.</div>
+	<div class=\"confirm\">The changes will have effect after restart of the server!</div>
+	<br>";
+}
 
-<form action="
-<?php
-	echo $_SERVER["PHP_SELF"]."\" name=f method=\"POST\"><font size=4>Apache configuration:</font><br>";
+echo "<form action=\"";
+
+	echo $_SERVER["PHP_SELF"]."\" name=f method=\"POST\">
+	<table class=\"outer\">
+	<tr><th colspan=\"2\">Apache configuration</th></tr>";
 	$apache->echo_values ();
-	echo "<br><font size=4>PHP configuration:</font><br>";
+	echo "</table>
+	<br>";
+	
+	echo "<table class=\"outer\">
+	<tr><th colspan=\"2\">PHP configuration</th></tr>";
+	
 	$PHP->echo_values ();
-?>
-<br><input type=submit value="Save" name=Submit>
-</form><br><font color=red>
-<?php
+    
+	echo "
+	<tr><td colspan=\"2\" class=\"foot\">
+    <input type=submit value=\"Save\" name=Submit>
+    </td></tr>
+	</table>
+	</form>
+	<br>
+	";
 if ($PHPmod==True) {
-	echo "At the moment PHP is loaded as Apache module.";
+	echo "<div class=\"resultMsg\">At the moment PHP is loaded as Apache module.</div>";
 } else {
-	echo "At the moment PHP scripts are executed thought Apache CGI interface.";
+	echo "<div class=\"resultMsg\">At the moment PHP scripts are executed thought Apache CGI interface.</div>";
 }
 }
+
 //-------------------------------------------------------------------- functions
+
 class Config
 {
 var $contents;
@@ -122,7 +131,8 @@ function f_write ()
 }
 function echo_values ()
 {
-	echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">";
+  
+	
 	$item=0;
 	foreach ($this->Var_Name as $loop){
 		$Var_ID="C".$this->classnumber."i".$item;
@@ -130,13 +140,23 @@ function echo_values ()
 		$Var_Text=$this->Var_Text[$item];
 		$Var_Help=$this->Var_Help[$item];
 		$comments=$this->comments;
+		
 		preg_match("/\n\s*$Var_Name\s+([^$comments^\n]+)/i", $this->contents, $tag);
-		echo "<tr><td align=\"right\" width=\"50%\">$Var_Text:</td><td><input type=text name=\"$Var_ID\" size=31 maxlength=2048 value='$tag[1]'> ";
-		if ($Var_Help != "") {echo "<a href=\"$Var_Help\" target=blank>help</a>";};
+
+		$rowclass = ($rowclass=='0') ? '1' : '0';
+		echo "<tr>
+		<td class=\"head\" align=\"right\" width=\"50%\">$Var_Text:</td>
+		<td class=\"row$rowclass\"><input type=text name=\"$Var_ID\" size=31 maxlength=2048 value='$tag[1]'> ";
+		
+		if ($Var_Help != "") {
+		
+		echo "<a href=\"$Var_Help\" target=blank><img src=\"/a/images/help.png\" border=\"0\" alt=\"Help\" title=\"Help\"></a>";};
 		echo "</td></tr>";
+		
 		$item=$item+1;
-	}
-	echo "</table>";
+	}	
+
+//	echo "</table>";
 }
 function replace_values ($HTTP_POST_VARS)
 {
@@ -152,8 +172,6 @@ function replace_values ($HTTP_POST_VARS)
 }
 
 }
+
+include_once "http://localhost/a/plugins/themefooter.html";
 ?>
-</font><br><br>Be sure that you know what you are doing.
-<br><a href="#" onClick="close_window()">Close This Window</a>
-</center>
-</body></html>

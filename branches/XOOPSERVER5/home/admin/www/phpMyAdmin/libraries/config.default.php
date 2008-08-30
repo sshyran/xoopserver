@@ -1972,7 +1972,7 @@ $cfg['ThemeManager'] = true;
  *
  * @global string $cfg['ThemeDefault']
  */
-$cfg['ThemeDefault'] = 'original';
+$cfg['ThemeDefault'] = 'xoopscube';
 
 /**
  * allow different theme for each configured server

@@ -2,6 +2,23 @@
 
 <charsets>
 
+<copyright>
+ Copyright (C) 2003 MySQL AB
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; version 2 of the License.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+</copyright>
+
 <charset name="latin5">
 
 <ctype>
@@ -94,11 +111,6 @@
 
 
 <collation name="latin5_turkish_ci">
-<!--
-# Note: all accented characters are compared separately (this
-# is different from the default latin1 character set, where
-# e.g.  a = ä = á, etc.).
--->
 <map>
  00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
  10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F
@@ -112,10 +124,10 @@
  9C 9D 9E 9F A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB
  AC AD AE AF B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 BA BB
  BC BD BE BF C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 CA CB
- CC CD CE CF D0 D1 D2 44 D3 D4 D5 D6 D7 D8 D9 DA
- 49 DB DC DD DE DF 53 E0 E1 E2 E3 E4 5B 4C 58 E5
- CC CD CE CF D0 D1 D2 44 D3 D4 D5 D6 D7 D8 D9 DA
- 49 DB DC DD DE DF 53 FA E1 E2 E3 E4 5B 4B 58 FF
+ 41 41 41 41 41 41 41 44 46 46 46 46 4C 4C 4C 4C
+ 49 51 52 52 52 52 53 E0 52 5A 5A 5A 5B 4C 58 57
+ 41 41 41 41 41 41 41 44 46 46 46 46 4C 4C 4C 4C
+ 49 51 52 52 52 52 53 FA 52 5A 5A 5A 5B 4B 58 5F
 </map>
 </collation>
 

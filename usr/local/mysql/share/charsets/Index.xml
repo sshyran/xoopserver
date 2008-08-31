@@ -1,6 +1,23 @@
 <?xml version='1.0' encoding="utf-8"?>
 
-<charsets max-id="93">
+<charsets max-id="98">
+
+<copyright>
+ Copyright (C) 2003 MySQL AB
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; version 2 of the License.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+</copyright>
 
 <description>
 This file lists all of the available character sets.
@@ -36,7 +53,7 @@ To make maintaining easier please:
   <alias>iso_8859-2</alias>
   <alias>iso_8859-2:1987</alias>
   <alias>l2</alias>
-  <collation name="latin2_czech_ci" 	id="2"	order="Czech" flag="compiled"/>
+  <collation name="latin2_czech_cs" 	id="2"	order="Czech" flag="compiled"/>
   <collation name="latin2_general_ci"	id="9"	flag="primary">
     <order>Hungarian</order>
     <order>Polish</order>
@@ -88,7 +105,7 @@ To make maintaining easier please:
 
 <charset name="latin1">
   <family>Western</family>
-  <description>ISO 8859-1 West European</description>
+  <description>cp1252 West European</description>
   <alias>csisolatin1</alias>
   <alias>iso-8859-1</alias>
   <alias>iso-ir-100</alias>
@@ -97,9 +114,13 @@ To make maintaining easier please:
   <alias>l1</alias>
   <alias>latin1</alias>
   <collation name="latin1_german1_ci"	id="5"	order="German Duden"/>
-  <collation name="latin1_swedish_ci"	id="8"	order="Finnish, Swedish"	flag="primary"/>
+  <collation name="latin1_swedish_ci"	id="8"	order="Finnish, Swedish">
+    <flag>primary</flag>
+    <flag>compiled</flag>
+  </collation>
   <collation name="latin1_danish_ci"	id="15"	order="Danish"/>
   <collation name="latin1_german2_ci"	id="31"	order="German Phonebook"	flag="compiled"/>
+  <collation name="latin1_spanish_ci"	id="94"	order="Spanish"/>
   <collation name="latin1_bin"		id="47"	order="Binary">
     <flag>binary</flag>
     <flag>compiled</flag>
@@ -348,7 +369,10 @@ To make maintaining easier please:
     <order>Slovenian</order>
     <order>Sorbian</order>
   </collation>
-  <collation name="cp1250_czech_ci"	id="34"	order="Czech">
+  <collation name="cp1250_croatian_ci"	id="44">
+    <order>Croatian</order>
+  </collation>
+  <collation name="cp1250_czech_cs"	id="34"	order="Czech">
     <flag>compiled</flag>
   </collation>
   <collation name="cp1250_bin"		id="66"	order="Binary"	flag="binary"/>
@@ -401,7 +425,7 @@ To make maintaining easier please:
   <description>ARMSCII-8 Armenian</description>
   <alias>armscii-8</alias>
   <collation name="armscii8_general_ci"	id="32"	order="Armenian"	flag="primary"/>
-  <collation name="armscii_bin"		id="64"	order="Binary"		flag="binary"/>
+  <collation name="armscii8_bin"	id="64"	order="Binary"		flag="binary"/>
 </charset>
 
 <charset name="utf8">
@@ -463,9 +487,6 @@ To make maintaining easier please:
     <order>Sorbian</order>
   </collation>
   <collation name="macce_bin"	id="43"	order="Binary"	flag="binary"/>
-  <!--collation name="macce_ci_ai"	id="44"/-->
-  <!--collation name="macce_ci"	id="45"/-->
-  <!--collation name="macce_cs"	id="46"/-->
 </charset>
 
 <charset name="macroman">
@@ -533,6 +554,39 @@ To make maintaining easier please:
   <description>Binary pseudo charset</description>
   <collation name="binary"	id="63"	order="Binary">
     <flag>primary</flag>
+    <flag>compiled</flag>
+  </collation>
+</charset>
+
+<charset name="cp932">
+  <family>Japanese</family>
+  <description>SJIS for Windows Japanese</description>
+  <alias>ms_cp932</alias>
+  <alias>sjis_cp932</alias>
+  <alias>sjis_ms</alias>
+  <collation name="cp932_japanese_ci"    id="95" order="Japanese">
+    <flag>primary</flag>
+    <flag>compiled</flag>
+  </collation>
+  <collation name="cp932_bin"    id="96" order="Binary">
+    <flag>binary</flag>
+    <flag>compiled</flag>
+  </collation>
+</charset>
+
+<charset name="eucjpms">
+  <family>Japanese</family>
+  <description>UJIS for Windows Japanese</description>
+  <alias>eucjpms</alias>
+  <alias>eucJP_ms</alias>
+  <alias>ujis_ms</alias>
+  <alias>ujis_cp932</alias>
+  <collation name="eucjpms_japanese_ci"    id="97" order="Japanese">
+    <flag>primary</flag>
+    <flag>compiled</flag>
+  </collation>
+  <collation name="eucjpms_bin"    id="98" order="Japanese">
+    <flag>binary</flag>
     <flag>compiled</flag>
   </collation>
 </charset>

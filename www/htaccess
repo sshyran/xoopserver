@@ -4,6 +4,7 @@
 ############################################################################
 
 Options +Indexes +MultiViews +FollowSymlinks
+   Allow from all
 
 # Directives controlling the display of server-generated directory listings.
 #    
@@ -45,7 +46,7 @@ Options +Indexes +MultiViews +FollowSymlinks
 	AddDescription "legacy compuserve GIF image" .gif
 	AddIcon /icons/small/jpg.png .jpg .jpeg .png
 	AddDescription "jpeg compressed photo image" .jpg .jpeg
-	AddDescription "portable network graphic (yay!)" .png
+	AddDescription "portable network graphic" .png
 
 	AddIcon /icons/small/photo.png .ps .psd
 	AddDescription "Photoshop image" .ps .psd
@@ -66,7 +67,7 @@ Options +Indexes +MultiViews +FollowSymlinks
 	AddDescription "adobe portable document" .pdf
 
 	AddIcon /icons/small/text.png .txt
-	AddDescription "nice plain text" .txt
+	AddDescription "file plain text" .txt
 
 	AddIcon /icons/small/text.png .diz .nfo .faq .readme .me
 	AddDescription "plain text info" .diz .nfo .faq .readme .me
@@ -122,7 +123,7 @@ Options +Indexes +MultiViews +FollowSymlinks
 	AddIcon /icons/small/torrent.png  .torrent
 
 	# some misc types
-	AddDescription "windows link. ewww!" .lnk .url
+	AddDescription "windows link" .lnk .url
 	
 
 	AddIconByEncoding (CMP,/icons/small/compressed.png) x-compress x-gzip
@@ -143,7 +144,7 @@ Options +Indexes +MultiViews +FollowSymlinks
 	# here's a cool trick!
 	# won't work unless you cover every type you intend to serve
 	# sort of a catch-all..
-	AddDescription "hmm.. directory?" *
+	AddDescription "directory" *
 	
 	# DefaultIcon is which icon to show for where none is explicitly set.
 	DefaultIcon /icons/small/generic.gif
@@ -178,6 +179,3 @@ Options +Indexes +MultiViews +FollowSymlinks
     
 </IfModule>
 # End of indexing directives.
-
-
-

@@ -7,7 +7,7 @@
 	28-08-2008
 */
 
-header("location:http://localhost/phpinfo/");
+header("location:http://localhost/a/");
 exit;
 
 ?>

@@ -39,10 +39,13 @@ body
 	height:110px;
 	}
 
-#header h1 
+#header span.version 
 	{
-	margin: 0;
-	padding: 10px 0;
+	float:right;
+	margin:10px; 
+	padding:0px 15px;
+	text-align:right; 
+	color:#99CCFF
 	}
 
 .headerlogo 
@@ -52,40 +55,6 @@ body
 	height: 100px;
 	padding-top: 10px;
 	color:#fff;
-	}
-
-.headersearch 
-	{
-	float:right;
-	height:44px;
-	width:370px;
-	margin: 25px 0px 0px 0px;
-	background:url(images/bg_form_header.gif) no-repeat;
-	text-align:center;
-	}
-
-.headersearch form 
-	{
-	padding:10px 10px 0px 10px;
-	font-size:1.1em;
-	margin: 0px;
-	}
-.headerSearchField 
-	{	
-	width:230px;
-	background:url(images/bg_blockcontent.gif) top left repeat-x; 
-	border:1px inset #000066;
-	line-height:1.3em;
-	font-size:1.1em;
-	}
-
-.headersearch button 
-	{
-	padding-left:15px;
-	margin-left:5px;
-	border: none;
-	background:transparent url(images/buton_search.gif) no-repeat;
-	color:#FFCC00;
 	}
 
 .sitename 

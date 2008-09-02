@@ -9,7 +9,7 @@
 
 include_once "/home/admin/www/plugins/themeheader.html";
 
-echo "<h2>XOOPSERVER 5 :: Configuration</h2><br />";
+echo "<h2>XOOPSERVER 5 :: 構成</h2><br />";
 
 //-------------------------------------------------------------------- variables
 
@@ -75,8 +75,8 @@ if ($step=="Save") {
 	$apache->replace_values ($HTTP_POST_VARS);
 	$PHP->replace_values ($HTTP_POST_VARS);
 	echo "
-	<div class=\"resultMsg\">The changes have been sucssesfuly saved.</div>
-	<div class=\"confirm\">The changes will have effect after restart of the server!</div>
+	<div class=\"resultMsg\">変更の保存は成功しました。</div>
+	<div class=\"confirm\">変更はサーバ再起動後に有効になります!</div>
 	<br>";
 }
 
@@ -103,9 +103,9 @@ echo "<form action=\"";
 	<br>
 	";
 if ($PHPmod==True) {
-	echo "<div class=\"resultMsg\">At the moment PHP is loaded as Apache module.</div>";
+	echo "<div class=\"resultMsg\">現在PHPはApache モジュールとしてロードされています。</div>";
 } else {
-	echo "<div class=\"resultMsg\">At the moment PHP scripts are executed thought Apache CGI interface.</div>";
+	echo "<div class=\"resultMsg\">現在PHPスクリプトはApache CGIインタフェースで実行されています。</div>";
 }
 }
 

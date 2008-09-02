@@ -2,7 +2,7 @@
 
 include_once "/home/admin/www/plugins/themeheader.html";
 
-echo '<h2>Dot HTAccesser - .htaccess file generator</h2>
+echo '<h2>Dot HTAccesser - .htaccess ファイル ジェネレータ</h2>
 <h3>Sometimes it\'s easier online</h3>';
 
 if (isset($_REQUEST['submit']))
@@ -240,29 +240,29 @@ if ($options) { $output="Options $options\n".$output; }
 
 <table class="outer">
 <tr>
-<th colspan="2">Default Page</th>
+<th colspan="2">Default Page(デフォルトページ)</th>
 </tr>
 <tr>
-<td class="head">What page to load if the user doesn't specify any (usually index.html or index.php)</td>
+<td class="head">ユーザが特に指定していない場合にロードするページ (通常 index.html または index.php)</td>
 <td class="odd">
 Directory Index : <input name="default_page" type="text" size="40">
 <br />
-Can specify multiple in a list (ie index.php index.html index.htm default.htm</td>
+リスト中に複数指定可 (例 index.php index.html index.htm default.htm</td>
 </tr>
 </table>
 <br />
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Options</th>
+<th colspan="2">Options(オプション)</th>
 </tr>
 <tr>
-<td width="50%" class="head" >Execution of CGI scripts using mod_cgi is permitted.</td>
+<td width="50%" class="head" >mod_cgiを使ったCGIスクリプトの実行は許可されている。</td>
 <td class="odd">
 <input type=checkbox name="opt_execCGI" value="false"> execute CGI programs</td>
 </tr>
 <tr>
-<td class="head" >File Extensions</td>
+<td class="head" >ファイル拡張</td>
 <td class="even"> 
 <input type=checkbox name="handle_cgi" value="false"> .cgi
 <br /><input type=checkbox name="handle_pl" value="false"> .pl
@@ -270,38 +270,38 @@ Can specify multiple in a list (ie index.php index.html index.htm default.htm</t
 <br /><input type=checkbox name="handle_sh" value="false"> .sh  </td>
 </tr>
 <tr>   
-<td class="head">Server-side includes provided by mod_include are permitted. </td>
+<td class="head">mod_includeが提供するServer-side includes は許可されている。</td>
 <td class="odd">
 <input type=checkbox name="opt_include" value="false"> include files (SSI)
 <br /><input type=checkbox name="opt_includeNOEXEC" value="false"> or without #exec 
 <br /></td>
 </tr>
 <tr>
-  <td class="head">File extension</td>
+  <td class="head">ファイル拡張</td>
   <td class="even"><input type=text name="opt_include_ext" value="shtml"></td>
 </tr>
 <tr>
-<td class="head">The server will follow symbolic links in this directory. </td>
+<td class="head">サーバはこのディレクトリ中のシンボリックリンクをフォローする。</td>
 <td class="odd"><input type=checkbox name="opt_FollowSymLinks" value="false"> Follow Symbolic Links</td>
 </tr>
 <tr>
-<td class="head">The server will only follow symbolic links for which the target file or directory is owned by the same user id as the link. </td>
+<td class="head">サーバはターゲットファイルまたはディレクトリがリンクと同じユーザＩＤに所有されている時のみシンボリックリンクをフォローする。</td>
 <td class="even"><input type=checkbox name="opt_SymLinksIfOwnerMatch" value="false"> Follow Symbolic Links if owner matches</td>
 </tr>
 <tr>
-<td class="head">If a URL which maps to a directory is requested, and there is no DirectoryIndex (e.g., index.html) in that directory, then mod_autoindex will return a formatted listing of the directory.        </td>
+<td class="head">ディレクトリにマッピングされるURLがリクエストされた時、ディレクトリ中にディレクトリインデックス(例 index.html) が無い場合、mod_autoindex はディレクトリの整形されたリストをリターンする。        </td>
 <td class="odd"> <input type=checkbox name="opt_indexes" value="false"> Indexes</td>
 </tr>
 <tr>
-<td class="head">Content negotiated "MultiViews" are allowed using mod_negotiation. </td>
+<td class="head">"MultiViews"ネゴシエイトされたコンテンツは mod_negotiationを使用可。</td>
 <td class="even"> <input type=checkbox name="opt_multiview" value="false"> Content Negotiation (MultiViews)</td>
 </tr>
 <tr>
-<td class="head">Force HTTP requests to redirect HTTPS</td>
+<td class="head">HTTP リクエストを強制的に HTTPSにリダイレクト</td>
 <td class="odd"> <input type=checkbox name="force_ssl" value="false"> Force SSL<br />		</td>
 </tr>
 <tr>
-<td class="head">SSL Domain</td>
+<td class="head">SSL ドメイン</td>
 <td class="even"><input type=text name="force_ssl_domain" value="www.domain.com" size="40"></td>
 </tr>
 </table>
@@ -309,10 +309,10 @@ Can specify multiple in a list (ie index.php index.html index.htm default.htm</t
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Authentication</th>
+<th colspan="2">Authentication(認証)</th>
 </tr>
 <tr>
-<td class="head" width="50%">Define Access Permissions</td>
+<td class="head" width="50%">アクセスパーミッション定義</td>
 <td class="odd">
 <input type=checkbox name="auth_denyall" value="false">
 Deny by default<br>
@@ -327,31 +327,31 @@ User Authentication<br>
 </tr>
 
 <tr>
-<td class="head">Area Name</td>
+<td class="head">エリア名</td>
 <td class="even"> <input type=text name="auth_name" size="40"></td>
 </tr>
 <tr>
-<td class="head">path to users file</td>
+<td class="head">ユーザファイルへのパス</td>
 <td class="odd"><input type=text name="auth_userpath" size="40"> </td>
 </tr>
 <tr>
-<td class="head">path to groups file</td>
+<td class="head">グループファイルへのパス</td>
 <td class="even"><input type=text name="auth_grouppath" size="40"> </td>
 </tr>
 <tr>
-<td class="head">Allowed Users</td>
+<td class="head">許可ユーザ</td>
 <td class="odd"><input type=text name="auth_allow_users" value="" size="40"></td>
 </tr>
 <tr>
-<td class="head">Allowed Groups</td>
+<td class="head">許可グループ</td>
 <td class="even"><input type=text name="auth_allow_groups" value="" size="40"></td>
 </tr>
 <tr>
-<td class="head">Allowed IP addresses (wildcards and names allowed)</td>
+<td class="head">許可されたIPアドレス(wildcards and names allowed)</td>
 <td class="odd"><input type=text name="auth_allow_ip" value="" size="40"></td>
 </tr>
 <tr>
-<td class="head">Blocked IP addresses (wildcards and names allowed)</td>
+<td class="head">ブロックされたIPアドレス(wildcards and names allowed)</td>
 <td class="even"><input type=text name="auth_deny_ip" value="" size="40"></td>
 </tr>
 </table>
@@ -359,10 +359,10 @@ User Authentication<br>
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Additional Mime Types</td>  </tr>
+<th colspan="2">Additional Mime Types(Mime タイプ追加)</td>  </tr>
 <tr>
 <td class="head" width="50%"><br />
-<p align="center">File extension to mime type mappings are in the following format: </p>
+<p align="center">Mimeタイプに対するファイル拡張のマッピングは次のフォーマット: </p>
 <br />
 <div style="width:50%; margin:5px auto;"> mime/type ext 
 <br /> for example 
@@ -392,10 +392,10 @@ fclose($fp);
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Protect System Files</th>
+<th colspan="2">Protect System Files(システムファイル保護)</th>
 </tr>
 <tr>
-<td class="head" width="50%">Additional files to protect</td>
+<td class="head" width="50%">保護ファイル追加</td>
 <td class="odd">
 <input type=text name="protect_files" size="40"></td>
 </tr>
@@ -408,28 +408,28 @@ fclose($fp);
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">File Cache Control</th>
+<th colspan="2">File Cache Control(ファイルキャッシュ制御)</th>
 </tr>
 <tr>
-<td width="50%" class="head">How often will the client/proxy refresh the file</td>
-<td class="odd"><input type=checkbox name="cache"> Specify File Cache Time</td>
+<td width="50%" class="head">client/proxy のファイルリフレッシュ頻度</td>
+<td class="odd"><input type=checkbox name="cache"> キャッシュ時間を指定</td>
 </tr>
 <tr>
-<td class="head">Expire all clients/proxies at the same time</td>
+<td class="head">全ての clients/proxiesが同時に期限切れとなる</td>
 <td class="even"><input type=checkbox name="cache_server"> Modification Based</td>
 </tr>
 <tr>
-<td class="head">Cache Time</td>
+<td class="head">キャッシュ時間</td>
 <td class="odd">
 <select name=cachelength>
-<OPTION VALUE="31536000">1 Year</OPTION>
-<OPTION VALUE="15768000">6 Months</OPTION>
-<OPTION VALUE="78844000">3 Months</OPTION>
-<OPTION VALUE="2592000">1 Month</OPTION>
-<OPTION VALUE="604800" SELECTED>1 Week</OPTION>
-<OPTION VALUE="86400">1 Day</OPTION>
-<OPTION VALUE="3600">1 Hour</OPTION>
-<OPTION VALUE="60">1 Minutes</OPTION>
+<OPTION VALUE="31536000">1 年</OPTION>
+<OPTION VALUE="15768000">6 ヵ月</OPTION>
+<OPTION VALUE="78844000">3 ヵ月</OPTION>
+<OPTION VALUE="2592000">1 ヵ月</OPTION>
+<OPTION VALUE="604800" SELECTED>1 週</OPTION>
+<OPTION VALUE="86400">1 日</OPTION>
+<OPTION VALUE="3600">1 時間</OPTION>
+<OPTION VALUE="60">1 分</OPTION>
 </select>
 </td>
 </tr>
@@ -441,70 +441,70 @@ fclose($fp);
 <th colspan="2">ModRewrite</th>
 </tr>
 <tr>
-<td class="head" width="50%">Protect Media Files<br />
-Check the referrer domain for images, music, and sound files</td>
+<td class="head" width="50%">メディアファイル保護<br />
+リファラードメインの画像、音楽、サウンドファイルをチェックする</td>
 <td class="odd"><input type=checkbox name="check_media_referrer"> On</td>
 </tr>
 <tr>
-<td class="head">Allowed Domain:</td>
+<td class="head">許可ドメイン:</td>
 <td class="even"><input type=text name="referrer_domain" value="yourdomain.com" size="40"></td>
 </tr>
 <tr>
-<td class="head">Block E-mail Harvesters<br />
-Deny access to e-mail harvesting programs.</td>
+<td class="head">E-mail 収集をブロック<br />
+e-mailアドレス収集プログラムのアクセスを禁止。</td>
 <td class="odd">
 <input type=checkbox name="block_harvesters"> On</td>
 </tr>
 <tr>
-<td class="head">Page to server:</td>
+<td class="head">サーバへのページ:</td>
 <td class="even"> <input type=text name="block_doc" value="deny.html" size="40"></td>
 </tr>
 <tr>
-<td class="head">Time-Dependant Page<br />
-Serve pages depending on time of day</td>
+<td class="head">時刻依存ページ<br />
+日時指定でページを提供</td>
 <td class="odd"><input type=checkbox name="timed_pages"> On</td>
 </tr>
 <tr>
-<td class="head">Page Name : </td>
+<td class="head">ページ名 : </td>
 <td class="even"><input type=text name="timed_page" value="page.html" size="40"></td>
 </tr>
 <tr>
-<td class="head">Daytime Starts :</td>
+<td class="head">日時開始 :</td>
 <td class="odd"><input type=text name="timed_page_start" value="0600" size="40"></td>
 </tr>
 <tr>
-<td class="head">Daytime Ends   :</td>
+<td class="head">日時終了 :</td>
 <td class="even"> <input type=next name="timed_page_end" value="1800" size="40"></td>
 </tr>
 <tr>
-<td class="head">Daytime Page  :</td>
+<td class="head">昼間ページ :</td>
 <td class="odd"> <input type=text name="timed_page_day" value="page.day.html" size="40"><br /></td>
 </tr>
 <tr>
-<td class="head">Nighttime Page :</td>
+<td class="head">夜間ページ :</td>
 <td class="even"> <input type=text name="timed_page_night" value="page.night.html" size="40"></td>
 </tr>
 <tr>
-<td class="head">Virtual DNS to Folder<br />
-Rewrite Virtual Subdomains to subfolders.  Ie: rewrite www.foo.domain.com to www.domain.com/subdomains/foo.  Useful for virtual user domains.</td>
+<td class="head">フォルダーへのバーチャル DNS<br />
+バーチャルサブドメインをサブフォルダーにリライト。例: rewrite www.foo.domain.com to www.domain.com/subdomains/foo.  バーチャルユーザドメインに有効。</td>
 <td class="odd"><input type=checkbox name="user_dir"> On</td>
 </tr>
 <tr>
-<td class="head">Base Domain:</td>
+<td class="head">ベースドメイン:</td>
 <td class="even"><input type=text name="user_domain" value="domain.com" size="40"></td>
 </tr>
 <tr>
-<td class="head">Path to Folders:</td>
+<td class="head">フォルダーへのパス:</td>
 <td class="odd"><input type=text name="user_dir_path" value="home" size="40"></td>
 </tr>
 <tr>
-<td class="head">Redirect Failing URLs To Other Webserver<br />
-When a URL is invalid, or would produce an error, redirect to a secondary server.</th>
+<td class="head">失敗したURLを他サーバへリダイレクト<br />
+不正なURLや、エラーを引き起こすURLはセカンダリサーバへリダイレクト。</th>
 <td class="even">
 On: <input type=checkbox name="failed_redirect"><br /></td>
 </tr>
 <tr>
-<td class="head">Secondary Server:
+<td class="head">セカンダリサーバ:
 <td class="odd"><input type=text name="failed_redirect_server" value="server2.domain.com"></td>
 </tr>
 </table>
@@ -512,10 +512,10 @@ On: <input type=checkbox name="failed_redirect"><br /></td>
 <br />
 <table class="outer">
 <tr>
-<th colspan="2"><h3>Rewrite Condition</h3></th>
+<th colspan="2"><h3>Rewrite Condition(書き換え条件)</h3></th>
 </tr>
 <tr>
-<td class="head" width="50%">Rewrite Page requested in the URL. Page Name :</td>
+<td class="head" width="50%">URL中にリクエストされたページを書き換える。ページ名 :</td>
 <td class="odd"><input type=text name="rewrite_browser_page" size="40"><br /></td>
 </tr>
 </table>
@@ -523,22 +523,22 @@ On: <input type=checkbox name="failed_redirect"><br /></td>
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Browser Dependant Page</th>
+<th colspan="2">Browser Dependant Page(ブラウザ依存ページ)</th>
 </tr>
 <tr>
-<td class="head" width="50%">Pagefor Netscape</td>
+<td class="head" width="50%">Netscape用ページ</td>
 <td class="odd"><input type=text name="rewrite_browser_page_ns" size="40"></td>
 </tr>
 <tr>
-<td class="head">Page to use for IE</td>
+<td class="head">IE用ページ</td>
 <td class="even"><input type=text name="rewrite_browser_page_ie" size="40"></td>
 </tr>
 <tr>
-<td class="head">Page for Lynx. Use textmode.</td>
+<td class="head">Lynx用ページ. テキストモードを使用。</td>
 <td class="odd"> <input type=text name="rewrite_browser_page_lynx" size="40"></td>
 </tr>
 <tr>
-<td class="head">Default Page used by other browsers</td>
+<td class="head">その他ブラウザのデフォルトページ</td>
 <td class="even"> <input type=text name="rewrite_browser_page_default" size="40"></td>
 </tr>
 </table>
@@ -546,19 +546,19 @@ On: <input type=checkbox name="failed_redirect"><br /></td>
 <br />
 <table class="outer">     
 <tr>
-<th colspan="2">Country Specific Page</th>
+<th colspan="2">Country Specific Page(各国固有ページ)</th>
 </tr>
 <tr>
-<td colspan="2" class="odd">Requires the <a href="http://www.maxmind.com/app/mod_geoip">mod_geoip</a> is setup and configured on your server.  Thought the software is free, the datafiles are a commercial product.  Allows you to redirect users to specific pages depending on their country of origin.</td>
+<td colspan="2" class="odd"><a href="http://www.maxmind.com/app/mod_geoip">mod_geoip</a>のセットアップとサーバの設定が必要です。ソフトウェアはフリーですが、データファイルは商用プロダクトです。居住国に従い、ユーザを特定のページにリダイレクトできます。</td>
 </tr>         
 <tr>
 <td class="head" width="50%">
-Country Code<br />
-US = United States, GB = United Kingdom, CA = Canada, MX = Mexico, FR = France, NL = Netherlands, A1 = Anonymous<br /></td>
+国コード<br />
+US = 合衆国, GB = イギリス, CA = カナダ, MX = メキシコ, FR = フランス, NL = オランダ, A1 = 匿名<br /></td>
 <td class="even"><input type=text name="geoip_country" size="40"></td>
 </tr>           
 <tr>
-<td class="head">Country Specific URLpage to redirect visitors from the country (index.us.html or index.fr.html)</td>
+<td class="head">その国からの訪問者をリダイレクトする国固有のURLページ (index.us.html or index.fr.html)</td>
 <td class="odd">
 <input type=text name="geoip_page" size="40"></td>
 </tr>
@@ -570,14 +570,14 @@ US = United States, GB = United Kingdom, CA = Canada, MX = Mexico, FR = France, 
 <th colspan="2">Map Folder To Script</th>
 </tr>
 <tr>
-<td colspan="2" class="odd">This trick will make it possible to run a script that has parameters in the URL.  You can make a custom home page script for your users that they can access like /login/home.html or /login/preferences.html and have them both go to login.php.</td>
+<td colspan="2" class="odd">このトリックにより、URL中にパラメータを持つスクリプトを実行することができます。利用者が /login/home.html や /login/preferences.html などにアクセスして両方とも login.php にとばす、といったことができるカスタムホームページスクリプトを記述できます。</td>
 </tr>
 <tr>
-<td class="head" width="50%">Folder Name<br />Folder you will reference in your href and urls (ie login)</td>
+<td class="head" width="50%">フォルダー名<br />hrefやurlで参照するフォルダー (例 login)</td>
 <td class="even"><input type=text name="remap_folder" size="40"></td>
 </tr>
 <tr>
-<td class="head">Script Name<br />Script that will be ran (ie login.php, login.cgi, or login.pl)  If you would like the rest of the path as a POST variable, do something like "login.php?page="</td>
+<td class="head">スクリプト名<br />実行されるスクリプト (例 login.php, login.cgi, or login.pl) パスの残り部分をポスト変数としたければ、"login.php?page="のように記述してください。</td>
 <td class="odd"><input type=text name="remap_script" size="40"></td>
 </tr>
 </table>
@@ -585,8 +585,8 @@ US = United States, GB = United Kingdom, CA = Canada, MX = Mexico, FR = France, 
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Custom Error Documents</th></tr>
-<tr><td colspan="2" class="odd">Allows you to specify custom documents to serve on error conditions</td>
+<th colspan="2">Custom Error Documents(カスタムエラードキュメント)</th></tr>
+<tr><td colspan="2" class="odd">エラー条件の時に特定のカスタムドキュメントを表示</td>
 </tr>
 <tr>
 <td class="head" width="50%">Error 400 - Bad Request</td>
@@ -613,25 +613,25 @@ US = United States, GB = United Kingdom, CA = Canada, MX = Mexico, FR = France, 
 <br />
 <table class="outer">
 <tr>
-<th colspan="2">Redirection</th>
+<th colspan="2">Redirection(リダイレクト)</th>
 </tr>
 <tr>
-<td class="head" width="50%">Use this option if a document has been moved to a new url.  <br />
-It will take care of automatic redirection for the user</td>
+<td class="head" width="50%">ドキュメントが新しいURLに移動された時にこのオプションを使用。<br />
+利用者にとって自動リダイレクトは注意が必要</td>
 <td class="odd"><input type=checkbox name="redirect">
-Redirect Moved Document</td>
+移動されたドキュメントをリダイレクト</td>
 <tr>
-<td class="head">Moved Document</td>
+<td class="head">移動されたドキュメント</td>
 <td class="even"><input type=text name=redirect_file size="40"></td>
 </tr>
 <tr>
-<td class="head">New URL</td>
+<td class="head">新しいURL</td>
 <td class="odd"><input type=text name=redirect_url size="40"></td>
 </tr>
 </table>
 <br />
 <br />
-<center><input type=reset name=reset value="Clear Form"><input type=submit name=submit value="Generate .htaccess files"></center>
+<center><input type=reset name=reset value="フォームをクリア"><input type=submit name=submit value=".htaccess ファイルを生成"></center>
 </form>
 <br />
 <br />

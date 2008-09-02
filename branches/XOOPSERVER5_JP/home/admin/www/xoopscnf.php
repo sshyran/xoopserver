@@ -5,6 +5,10 @@
 	Nuno Luciano aka da/gigamaster
 	http://xoopserver.com
 	28-08-2008
+	
+	Japanese Release 
+    S. Higashi
+    02-09-20
 */
 
 include_once "/home/admin/www/plugins/themeheader.html";

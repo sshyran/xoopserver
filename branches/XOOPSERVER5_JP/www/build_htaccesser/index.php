@@ -1,5 +1,11 @@
 <?
 
+/*
+    Japanese Release 
+    S. Higashi
+    02-09-2008
+	
+	*/
 include_once "/home/admin/www/plugins/themeheader.html";
 
 echo '<h2>Dot HTAccesser - .htaccess ファイル ジェネレータ</h2>

@@ -9,7 +9,7 @@
 
 include_once "/home/admin/www/plugins/themeheader.html";
 
-echo "<h1>XOOPSERVER 5 :: Configuration</h1><br>";
+echo "<h1>XOOPSERVER 5 :: 構成</h1><br>";
 
 function ss_timing_start ($name = 'default') {
     global $ss_timing_start_times;
@@ -43,7 +43,7 @@ phpinfo();
 ss_timing_stop();
 
 echo "<hr><br>
-      <div class=\"confirm\">The page was executed in : ".ss_timing_current()." seconds.</div>";
+      <div class=\"confirm\">このページの実行時間 : ".ss_timing_current()." seconds.</div>";
 
 include_once "/home/admin/www/plugins/themefooter.html";
 

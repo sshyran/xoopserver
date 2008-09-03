@@ -1,11 +1,17 @@
 <?
-
 /*
-    Japanese Release 
+	XOOPS Cube :: XOOPSERVER 5
+	Nuno Luciano aka da/gigamaster
+	http://xoopserver.com
+	28-08-2008
+	
+	Japanese Release 
     S. Higashi
     02-09-2008
 	
-	*/
+*/
+
+
 include_once "/home/admin/www/plugins/themeheader.html";
 
 echo '<h2>Dot HTAccesser - .htaccess ファイル ジェネレータ</h2>

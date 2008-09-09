@@ -552,6 +552,7 @@ Alias /icons/ "w:/usr/local/apache2/icons/"
 
 ScriptAlias /cgi-bin/ "w:/cgi-bin/"
 
+ScriptAlias /a-cgi/ "w:/home/admin/CGI/"
 
 #
 # "C:/Program Files/Apache Group/Apache2/cgi-bin" should be changed to whatever your ScriptAliased
@@ -562,6 +563,10 @@ ScriptAlias /cgi-bin/ "w:/cgi-bin/"
   Options ExecCGI
 </Directory>
 
+<Directory "w:/home/admin/CGI">
+  AllowOverride All
+  Options ExecCGI
+</Directory>
 
 #
 # Redirect allows you to tell clients about documents which used to exist in
@@ -703,6 +708,7 @@ AddLanguage ja .ja
 AddLanguage ko .ko
 AddLanguage zh-CN .zh-cn
 AddLanguage zh-TW .zh-tw
+AddLanguage hr .hr
 
 #
 # LanguagePriority allows you to give precedence to some languages

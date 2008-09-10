@@ -143,7 +143,6 @@ div#leftframelinks a:hover {
 
 /* leftdatabaselist */
 div#left_tableList {
-    border-bottom:      0.05em solid <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
     padding-left:		10px;
 }
 

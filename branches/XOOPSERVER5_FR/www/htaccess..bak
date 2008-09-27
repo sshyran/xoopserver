@@ -3,9 +3,8 @@
 #   based on corz FancyIndexing                                            #
 ############################################################################
 
-Options +Indexes +MultiViews +FollowSymlinks +Includes +ExecCGI
-  Order allow,deny
-  allow from 127.0.0.1
+Options +Indexes +MultiViews +FollowSymlinks
+   Allow from all
 
 # Directives controlling the display of server-generated directory listings.
 #    

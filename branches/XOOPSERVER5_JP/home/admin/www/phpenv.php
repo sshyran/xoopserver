@@ -4,7 +4,7 @@
 	XOOPS Cube :: XOOPSERVER 5
 	Nuno Luciano aka da/gigamaster
 	http://xoopserver.com
-	28-08-2008
+	31-10-2008
 	
 	Japanese Release 
     S. Higashi
